@@ -1,0 +1,359 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset CSS */
+
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+/* Fonts */
+
+#header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 16px 8px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#header a {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 16px 8px;
+}
+
+#header a:hover,
+.subnav li:hover a {
+    background-color: #CCCCCC;
+}
+
+#header .subnav {
+    display: inline-block;
+    list-style: none;
+}
+
+#header .subnav li {
+    display: inline-block;
+    padding: 16px 8px;
+}
+
+.subnav li a {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#slider {}
+
+#slider .imgSlider {
+    position: relative;
+}
+
+#slider img {
+    width: 100%;
+}
+
+#slider .imgSlider::before {
+    content: "Le Catering";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    font-size: 30px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    padding: 0 10px;
+    margin: 24px 12px;
+    color: #58595D;
+}
+
+#contents {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contents .content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#contents .content .imgContent {
+    width: 40%;
+    border-radius: 5px;
+}
+
+#contents .content .textContent {
+    width: 45%;
+}
+
+#contents .content .textContent .titleContent {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+
+#contents .content .textContent .subContent {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#contents .content .textContent .documnetContent {
+    line-height: 1.6;
+    font-size: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#contents .content .textContent .documnetContent span {
+    background-color: #cccccc;
+    padding: 0 8px;
+}
+
+#contents .content .textContent .moreContent {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #757575;
+}
+
+#contents .content .textContent .titleContent {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+#contents .content .textContent .documnetContent2 {
+    line-height: 1.6;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#contents .content .textContent .moreContent2 {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #757575;
+}
+
+#contact {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#contact h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+#contact .titleContact {
+    font-size: 15px;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact .addressContact {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #757575;
+}
+
+#contact .phoneContact {
+    font-size: 15px;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact input {
+    width: 100%;
+    padding: 16px;
+    margin: 15px 0;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid #cccccc;
+}
+
+#contact input[type="submit"] {
+    border-radius: 0px;
+    border: 0px;
+    width: 150px;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #cccccc;
+}
+
+#footer {
+    background-color: #F1F1F1;
+}
+
+#footer p {
+    padding: 48px 0;
+    text-align: center;
+}
+
+#footer p a {
+    color: black;
+}
